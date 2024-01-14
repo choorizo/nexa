@@ -1,0 +1,154 @@
+body {
+    font-family: "Poppins", sans-serif;
+      font-weight: normal;
+    font-style: normal;
+    overflow-x: hidden;
+  }
+  
+  * {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+
+  ul,
+ol {
+  margin: 0px;
+  padding: 0px;
+  list-style-type: none;
+}
+
+/*===========================
+      HEADER css 
+===========================*/
+.navbar-area {
+    background-color: white;
+    padding: 24px;
+}
+
+.navbar-area nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.links {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar-area nav a {
+    color: #070707; /* Change as needed */
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.navbar-area nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-area nav ul li {
+    margin: 0 5px;
+}
+
+.navbar-logo {
+    width: 100px; 
+}
+
+/* Profile Picture */
+.profile-pic{
+    svg {
+      width: 40px;
+      height: 40px;
+      flex-shrink: 0; 
+      background-color:   red;
+      border-radius: 50%;
+      padding: 6px;
+  
+    }
+  }
+
+    /*===========================
+    CONTENT css 
+===========================*/
+
+.content-area {
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+}
+
+.section-title {
+    padding: 30px 0px;
+}
+
+
+.content-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #f4f4f4; /* Adjust the color to match the background of the image */
+    border-radius: 10px; /* Optional: if you want rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: for shadow effect */
+}
+
+.video-container {
+    width: 35%; /* Adjust based on your preference */
+    padding: 20px; /* Adjust to create spacing around the video */
+}
+
+.video-container iframe {
+    width: 100%;
+    height: auto; /* Adjust height based on the aspect ratio of your video */
+    border-radius: 10px; /* Optional: if you want rounded corners */
+    border: none;
+}
+
+.text-container {
+    width: 55%; /* Adjust based on your preference */
+    padding: 20px; /* Adjust to create spacing around the text */
+}
+
+
+  /*===========================
+    FOOTER css 
+===========================*/
+
+.footer-area {
+    background-color: purple;
+    display: flex;
+    align-items: end;
+    justify-content: space-between;
+    padding:45px 80px 20px 80px
+    }
+    
+    .contact-info a {
+      color: white;
+      font-size: 16px;
+      font-weight: 600; 
+    }
+    .contact-info li {
+    height: 34px;
+    }
+    
+    
+    .contact-info a:hover {
+      color: red; 
+    }
+    
+    .text-align-end {
+      text-align: end;
+    }
+
+
+.content-wrap {
+    flex: 1;
+    /* This ensures that the content takes up the full height minus the footer */
+}
