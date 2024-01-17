@@ -345,6 +345,10 @@ button:hover {
   margin: 0 auto;
   background: white;
   padding: 20px;
+
+  h1 {
+    text-align: center;
+  }
 }
 .values {
   display: flex;
