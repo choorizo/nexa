@@ -353,6 +353,7 @@ button:hover {
 .profile {
   margin: 20px;
   text-align: center; 
+  width: 20%
 }
 
 .profile-image {
