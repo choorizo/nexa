@@ -392,13 +392,11 @@ button:hover {
 .value {
   width: 30%;
   padding: 10px;
-  background: #eee;
   border-radius: 5px;
 }
 .vision {
   margin-top: 20px;
   padding: 20px;
-  background: #ddd;
   border-radius: 5px;
 }
 h1, h2 {
